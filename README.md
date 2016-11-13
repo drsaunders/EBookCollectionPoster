@@ -1,4 +1,4 @@
-# My E-Book Collection Poster
+# E-Book Collection Poster
 
 One of my acute pleasures in life is snooping the books in other people's bookshelves - and showing off the books in mine. Now that I mostly read e-books, I don't have an easy way to share which books I've read (or once intended to read, which I believe deserves almost as much credit). So I built this command-line tool, which makes a printable or displayable poster from your collection of e-books.
 
@@ -7,7 +7,7 @@ Using this program has three big requirements/limitations and one small one.
 
 * Your e-books must be stored as files on your hard drive, and must not have any Digital Rights Management on them. This is a type of encryption that prevents access to the contents of an e-book except for by a branded e-reader. You can read up on this online, as well as how to remove DRM from the books you own. If you have some with and some without, the program will still work; it will just skip the books with DRM.
 
-* It only works on Kindle books, that is, in files with extensions `.azw3`, `.azw`, or `.mobi`. Other file types can be converted to 
+* It only works on Kindle books, that is, in files with extensions `.azw3`, `.azw`, or `.mobi`. Other file types can be converted to mobi, using something like [Calibre](http://calibre-ebook.com/), if they don't have DRM.
 
 * You must [install ImageMagick](https://www.imagemagick.org/script/binary-releases.php), an open-source command-line program that does the image manipulation. This can be a bit tricky if you're not used to installing command-line tools, but you can at least try the instructions on the website.
 

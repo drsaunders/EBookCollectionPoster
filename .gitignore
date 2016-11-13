@@ -1,3 +1,7 @@
 KindleUnpack/*
 *.pyc
 temp/*
+tiled_covers.jpg
+downloadtimes.tsv
+covers copy/*
+.DS_Store
