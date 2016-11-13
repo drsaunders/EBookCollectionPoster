@@ -21,7 +21,8 @@ To create a virtual bookshelf poster, there are two steps. After opening up the 
 
 Call 
 
-```python extract_book_covers.py ~/mybookfolder ~/myotherbookfolder  [etc.]
+```
+python extract_book_covers.py ~/mybookfolder ~/myotherbookfolder  [etc.]
 ```
 
 where `~/mybookfolder` is the path to your folder containing non-DRMed books with `.azw3`, `.azw`, and `.mobi` extensions. The utility will extract the covers from each book, and put them as image files into a folder called `covers`.
@@ -30,14 +31,16 @@ where `~/mybookfolder` is the path to your folder containing non-DRMed books wit
 
 Call 
 
-```python make_tiled_covers_image.py 
+```
+python make_tiled_covers_image.py 
 ```
 
 The utility will take those book covers and tile them into a high resolution image, called `tiled_covers.jpg`, with the top left the most recently downloaded e-books (by file creation date), and the bottom right the oldest books.
 
 My algorithm makes the resulting image roughly poster-shaped in its aspect ratio. You can adjust this, for example if you would like to make less white space on the last row, or to make a landscape-oriented image suitable for displaying as a computer or TV screensaver, with a numerical command-line argument:
 
-```python make_tiled_covers_image.py 1.5
+```
+python make_tiled_covers_image.py 1.5
 ```
 
 1.2 is the default, somewhat portrait format, while larger numbers are wider and smaller numbers are taller.
