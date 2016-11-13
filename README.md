@@ -46,6 +46,8 @@ My algorithm makes the resulting image roughly poster-shaped in its aspect ratio
 
 You'll likely notice when you look at your completed poster that many of the books don't have their proper cover. It might looks something like this:
 
+![Example missing cover](example_missing_cover.jpeg)
+
 My theory for this is that Amazon prepares e-books sometimes before the cover is finalized, and so you get a temporary cover instead. I found this for at least 1/3 of my official Amazon Kindle books. 
 
 You can fix these covers by downloading images of the cover from somewhere, such as the Amazon preview image, and saving them with the same name as the original cover file for that book in the `covers` folder. I do it by directly saving the image directly from my browser to the folder, clicking on the name of the relevant file to replace to fill in the name. 
@@ -62,9 +64,8 @@ Is doing all these steps time consuming and obsessive? Yes. But if you're the ty
 
 You can regenerate your poster with additional books, and it will not overwrite any cover images you manually replaced. However, you will have to delete the covers you deleted before again.
 
-This was written by Daniel Saunders, and makes use of extensive code extracted from
-
-	KindleUnpack
+This was written by Daniel Saunders, and makes use of code from [KindleUnpack](https://github.com/kevinhendricks/KindleUnpack):
+	
     Based on initial mobipocket version Copyright © 2009 Charles M. Hannum <root@ihack.net>
     Extensive Extensions and Improvements Copyright © 2009-2014 
          By P. Durrant, K. Hendricks, S. Siebert, fandrieu, DiapDealer, nickredding, tkeo.
